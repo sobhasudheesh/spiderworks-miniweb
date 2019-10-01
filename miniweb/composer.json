@@ -1,0 +1,29 @@
+{
+    "name": "spiderworks/miniweb",
+    "description": "To create a basic stucture of a website",
+    "version": "1.0.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sobha Sudheesh",
+            "email": "sobha@spiderworks.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yajra/laravel-datatables-oracle": "^9.0",
+        "intervention/image": "^2.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spiderworks\\MiniWeb\\MiniwebServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Spiderworks\\MiniWeb\\": "src/"
+        }
+    }
+}
